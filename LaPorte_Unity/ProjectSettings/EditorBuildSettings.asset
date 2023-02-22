@@ -8,8 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene01_Salon.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Scene02_Chambre.unity
+    guid: 06b78f20797af854fb7b4206d2fca5e2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3d241eeac5506ee4cb25aa7b11504107,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2981861032737f54180b2e2f3916479a,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 1926d49bc562b054b957f8feb6532726,
       type: 2}
