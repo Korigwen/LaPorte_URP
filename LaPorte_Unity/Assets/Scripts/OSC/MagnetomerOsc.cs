@@ -12,13 +12,16 @@ public class MagnetomerOsc : MonoBehaviour
     
     void Start(){
         osc.SetAddressHandler("/magneticfield", OnReceiveMagneticFiled);
-        
+     
+         
     }
     
 
     void OnReceiveMagneticFiled(OscMessage message)
     {
+        
         float x = message.GetFloat(2);
+        print(x);
         
         x = filter.Filter(x);
         

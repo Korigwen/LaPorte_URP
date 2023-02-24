@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Scene1_
+  - Scene2_
+  - Scene3_
+  - Scene4_
+  - Scene5_
+  - Scene6_
+  - Scene7_
+  - Scene8_
   layers:
   - Default
   - TransparentFX
